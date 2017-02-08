@@ -38,5 +38,4 @@ echo.
 
 pause>nul|set/p = %exit_message%
 
-:END
 endlocal
