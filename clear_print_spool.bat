@@ -2,7 +2,6 @@
 
 setlocal
 
-:PROMPT
 SET /P AREYOUSURE=Are you sure you want to clear the whole print spool? (Y/N)?
 SET printers_path="%systemroot%\System32\Spool\Printers\*.*"
 SET exit_message=All print queues have been cleared. Press any key to exit :)
